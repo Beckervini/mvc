@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\main",
+    "\\src\\main\\java",
+    "\\src\\test",
+    "\\src\\test\\java",
+    "\\src\\test\\java\\br",
+    "\\src\\test\\java\\br\\com",
+    "\\src\\test\\java\\br\\com\\fiap",
+    "\\src\\test\\java\\br\\com\\fiap\\mvc"
+  ],
+  "SelectedNode": "\\src\\main\\java\\br\\com\\fiap\\mvc\\Application\\GestaoTarefasApplication,java",
+  "PreviewInSolutionExplorer": false
+}
