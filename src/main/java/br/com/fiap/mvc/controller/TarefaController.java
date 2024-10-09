@@ -63,5 +63,5 @@ public class TarefaController {
         List<Tarefa> tarefas = tarefaService.pesquisar(titulo);
         model.addAttribute("tarefas", tarefas);
         return "pesquisa-tarefa";
-    }
+    }   
 }

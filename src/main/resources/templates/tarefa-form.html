@@ -12,19 +12,19 @@
         <h1>Formulário de Tarefa</h1>
         <form th:action="@{/tarefas/salvar}" th:object="${tarefa}" method="post">
             <input type="hidden" th:field="*{id}" />
-            <div class="form-group">
+            <div class="form-group mt-3">
                 <label for="titulo">Título</label>
                 <input type="text" id="titulo" th:field="*{titulo}" class="form-control" />
             </div>
-            <div class="form-group">
+            <div class="form-group mt-3">
                 <label for="descricao">Descrição</label>
                 <input type="text" id="descricao" th:field="*{descricao}" class="form-control" />
             </div>
-            <div class="form-group">
+            <div class="form-group mt-3">
                 <label for="status">Status</label>
                 <input type="text" id="status" th:field="*{status}" class="form-control" />
             </div>
-            <button type="submit" class="btn btn-success">Salvar</button>
+            <button type="submit" class="btn btn-success mt-4">Salvar</button>
         </form>
     </div>
 </body>

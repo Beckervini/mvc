@@ -12,14 +12,14 @@
         <h1>Pesquisar Tarefas</h1>
         <form action="/tarefas/pesquisar" method="get">
             <div class="form-group">
-                <label for="titulo">Título</label>
+                <label for="titulo" class="mb-1">Título</label>
                 <input type="text" id="titulo" name="titulo" class="form-control" />
             </div>
-            <button type="submit" class="btn btn-primary">Pesquisar</button>
+            <button type="submit" class="btn btn-primary mt-2 mb-4">Pesquisar</button>
         </form>
         <div th:if="${tarefas}">
             <h2>Resultados:</h2>
-            <table class="table">
+            <table class="table table-striped table-bordered">
                 <thead>
                     <tr>
                         <th>ID</th>
