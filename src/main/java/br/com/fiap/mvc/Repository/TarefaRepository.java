@@ -6,5 +6,5 @@ import br.com.fiap.mvc.model.Tarefa;
 import java.util.List;
 
 public interface TarefaRepository extends JpaRepository<Tarefa, Long> {
-    List<Tarefa> findByTituloContaining(String titulo);
+    List<Tarefa> findByTituloContainingIgnoreCase(String titulo);
 }
