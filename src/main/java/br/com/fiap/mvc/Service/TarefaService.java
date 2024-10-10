@@ -31,6 +31,6 @@ public class TarefaService {
     }
 
     public List<Tarefa> pesquisar(String titulo) {
-        return tarefaRepository.findByTituloContaining(titulo);
+        return tarefaRepository.findByTituloContainingIgnoreCase(titulo);
     }
 }
