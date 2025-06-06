@@ -4,8 +4,6 @@ Aplicação web desenvolvida em Java utilizando Spring Boot, seguindo o padrão 
 Sobre o projeto
 Este sistema permite cadastrar, listar, pesquisar, visualizar detalhes e excluir tarefas. O projeto utiliza arquitetura MVC, camadas de serviço e repositório, além de templates HTML para renderização das páginas.
 
-Ideal para portfólio acadêmico ou como base para sistemas de cadastro simples em Java.
-
 Funcionalidades
 Cadastro de tarefas
 
